@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Filter Cards/style.css">
+    <title>Filter Cards</title>
+</head>
+<body>
+    <!-- Control buttons -->
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('Alfa Romeo')"> Alfa Romeo</button>
+    <button class="btn" onclick="filterSelection('Mercedes')"> Mercedes</button>
+    <button class="btn" onclick="filterSelection('Infiniti')"> Infiniti</button>
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+    <div class="filterDiv Alfa Romeo">
+        <div class="card">
+            <img src="/Filter Cards/Montreal Gt Front.jpg" alt="Article">
+            <div class="description">
+                <h4 class="title">Montreal GT</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptatibus eos. Quae,
+                    dolores
+                    commodi? Impedit commodi voluptates</p>
+            </div>
+        </div>
+    </div>
+    <div class="filterDiv Infiniti">
+        <div class="card">
+            <img src="/Filter Cards/Infiniti-Concept-Vision-GT-2.jpg" alt="Article">
+            <div class="description">
+                <h4 class="title">Infiniti</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptatibus eos. Quae,
+                    dolores
+                    commodi? Impedit commodi voluptates</p>
+            </div>
+        </div>
+    </div>
+    <div class="filterDiv Mercedes">
+        <div class="card">
+            <img src="/Filter Cards/Mercedes.jpg" alt="Article">
+            <div class="description">
+                <h4 class="title">Mercedes GT</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptatibus eos. Quae,
+                    dolores
+                    commodi? Impedit commodi voluptates</p>
+            </div>
+        </div>
+    </div>
+    <div class="filterDiv Alfa Romeo">
+        <div class="card">
+            <img src="/Filter Cards/tz4.jpg" alt="Article">
+            <div class="description">
+                <h4 class="title">TZ4</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptatibus eos. Quae,
+                    dolores
+                    commodi? Impedit commodi voluptates</p>
+            </div>
+        </div>
+    </div>
+    <div class="filterDiv Alfa Romeo">
+        <div class="card">
+            <img src="/Filter Cards/6c.jpg" alt="Article">
+            <div class="description">
+                <h4 class="title">6C</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptatibus eos. Quae,
+                    dolores
+                    commodi? Impedit commodi voluptates</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/Filter Cards/script.js" ></script>
+</body>
+</html>
